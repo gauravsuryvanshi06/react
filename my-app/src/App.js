@@ -14,6 +14,7 @@ function App() {
       name: "Event 2",
       quantity: 0,
     },
+    
     {
       price: 999,
       name: "Event 3",
@@ -27,6 +28,21 @@ function App() {
     {
       price: 999,
       name: "Event 5",
+      quantity: 0,
+    },
+    {
+      price: 9939,
+      name: "Event 6",
+      quantity: 0,
+    },
+    {
+      price: 9993,
+      name: "Event 7",
+      quantity: 0,
+    },
+    {
+      price: 999,
+      name: "Event 8",
       quantity: 0,
     },
   ];
