@@ -8,5 +8,6 @@ export default function Product(props) {
                 <h2>{props.product.name} </h2>
             </div>
         </div>
+        
     )
     }

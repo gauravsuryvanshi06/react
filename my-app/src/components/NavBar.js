@@ -6,11 +6,10 @@ class NavBar extends React.Component {
   render() {
     return (
         <div>
-            
         <nav className="navbar navbar-expand-md py-5 navbar-dark bg-info shadow-sm">
           <div className="container">
             <a href="#" className="navbar-brand ">
-              GeeksForGeeks
+              Mess Calculations
             </a>
             <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent3" aria-controls="navbarSupportedContent3" aria-expanded="false" aria-label="Toggle navigation" className="navbar-toggler"><span className="navbar-toggler-icon" /></button>
             <div id="navbarSupportedContent3" className="collapse navbar-collapse">
@@ -27,16 +26,17 @@ class NavBar extends React.Component {
         <nav className="navbar navbar-light bg-light">
   <form className="form-inline">
     <button className="btn btn-outline-success" type="button">
-      Main button
+      Events
     </button>
-    <button className="btn btn-sm btn-outline-secondary" type="button">
+    {/* <button className="btn btn-sm btn-outline-secondary" type="button">
       Smaller button
-    </button>
+    </button> */}
   </form>
 </nav>
 
-
       </div>
+
+      
     );
   }
 }
